@@ -10,12 +10,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/CodeXBotz/File-Sharing-Bot'>Click here</a>\n○ Channel : @CodeXBotz\n○ Support Group : @CodeXBotzSupport</b>",
+            text = f"<b>○ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : <a href='tg://user?id={OWNER_ID}'>𝐎𝐧𝐥𝐲 𝐏𝐢𝐞𝐜𝐞🍁</a>\n○ Language : <code>Python3.6</code>\n○ Library : <a href='https://t.me/QTVS_BOT_X_CLOUD'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://t.me/QTVS_BOT_X_CLOUD'>Click here</a>\n○ Channel : @QTVS_BOT_X_CLOUD\n○ Support Group : @SAM_DUB_LEZHa</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("𝐂𝐨𝐦𝐞🏝𝐁𝐚𝐜𝐤", callback_data = "close")
                     ]
                 ]
             )
