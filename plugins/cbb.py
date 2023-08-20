@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫🥴 : <a href='tg://user?id={OWNER_ID}'>𝐎𝐧𝐥𝐲 𝐏𝐢𝐞𝐜𝐞🍁</a>\n○ Language 🦞: <b>Python3.6</b>\n○ Library : <a href='https://t.me/QTVS_BOT_X_CLOUD'>Master☘️ {__version__}</a>\n○ Source Code🛖 : <a href='https://t.me/QTVS_BOT_X_CLOUD'>Click here</a>\n○ Channel💥 : href='https://t.me/SAM_DUB_LEZHa\n○ Support Group : @QTVS_BOT_X_CLOUD</b>",
+            text = f"<b>○ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫🥴 : <a href='tg://user?id={OWNER_ID}'>𝐎𝐧𝐥𝐲 𝐏𝐢𝐞𝐜𝐞🍁</a>\n○ Language 🦞: <b>Python3.6</b>\n○ Library : <a href='https://t.me/QTVS_BOT_X_CLOUD'>Master☘️ {__version__}</a>\n○ Source Code🛖 : <a href='https://t.me/QTVS_BOT_X_CLOUD'>Click here</a>\n○ Channel💥 :<a href='https://t.me/SAM_DUB_LEZHa'\n○ Support Group : @QTVS_BOT_X_CLOUD</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
